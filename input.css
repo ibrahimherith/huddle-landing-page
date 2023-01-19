@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background: url('../images/bg-desktop.svg')hsl(257, 40%, 49%);
+}
+
+.fa-brands {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: url('../images/bg-mobile.svg')hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+    }
+}

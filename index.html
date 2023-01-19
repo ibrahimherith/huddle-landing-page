@@ -8,8 +8,49 @@
     <title>huddle-landing-page</title>
 </head>
 
+<!--links-->
+<link rel="stylesheet" href="./css/main.css">
+<script src="https://kit.fontawesome.com/8b93731d43.js" crossorigin="anonymous"></script>
+
 <body>
-    <div>hello, world!</div>
+    <header id="header">
+        <div class="container mx-auto p-6">
+            <div>
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container mx-auto my-8 p-6 pt-6  space-y-8 flex flex-col justify-between md:flex-row">
+                <div>
+                    <img src="./images/illustration-mockups.svg" alt="bg-mobile">
+                </div>
+                <div class="flex flex-col justify-start items-center space-y-8 md:w-1/2 md:p-12 md:items-start">
+                    <h1 class="text-3xl text-center text-white font-bold md:text-5xl md:text-left">Build The Community Your Fans Will Love</h1>
+                    <p class="text-lg text-center text-white md:text-left">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+                    </p>
+                    <a href="#" class="p-3 px-20 rounded-full shadow-ld text-lg text-SoftMagenta bg-white hover:bg-SoftMagenta hover:text-white">Register</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container mx-auto p-6 pb-8 flex justify-center md:justify-end">
+            <div class=" flex justify-between items-center space-x-3 md:items-end md:space-x-5">
+                <div class="p-2 rounded-full border-2 border-solid border-white hover:border-SoftMagenta">
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+                </div>
+                <div class="p-2 rounded-full border-2 border-solid border-white hover:border-SoftMagenta">
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                </div>
+                <div class="p-2 rounded-full border-2 border-solid border-white hover:border-SoftMagenta">
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
